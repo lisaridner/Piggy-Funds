@@ -24,10 +24,6 @@ function addExpense(e) {
     expenses.push(expense);
 
   
-
-
-
-    
     // localStorage
     localStorage.setItem("expenses", JSON.stringify(expenses));
   }
