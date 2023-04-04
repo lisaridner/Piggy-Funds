@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+
+
+ 
+=======
 // var dashboard = $('#div-test')
 // //key 2vBl2k6Nzv2Cqtal2Z2kE4sVaIT2FTNv
 // var url = "https://api.polygon.io/v3/reference/tickers?active=true&apiKey=2vBl2k6Nzv2Cqtal2Z2kE4sVaIT2FTNv"
@@ -57,12 +62,22 @@
 // })
 
 
+>>>>>>> main
 
 
 
 //--------------------------------------------------------------
+<<<<<<< HEAD
+var button = $('button')
+button.click(()=>{
 
 var dashboard = $('#div-test');
+dashboard.removeClass('hii')
+console.log("hiii")
+=======
+
+var dashboard = $('#div-test');
+>>>>>>> main
 var urlNews = "https://api.polygon.io/v2/reference/news?apiKey=2vBl2k6Nzv2Cqtal2Z2kE4sVaIT2FTNv";
 
 
@@ -75,6 +90,10 @@ var style = $('<style>').text(`
     text-align: center;
     border: 2px solid gray;
     margin: 10px;
+<<<<<<< HEAD
+    width: 20%;
+=======
+>>>>>>> main
   }
   .dashboard-item h3 {
     font-size: 20px;
@@ -83,6 +102,10 @@ var style = $('<style>').text(`
   .dashboard-item img {
     max-width: 100%;
     margin-bottom: 10px;
+<<<<<<< HEAD
+    height: auto;
+=======
+>>>>>>> main
   }
   .dashboard-item p {
     font-size: 8px;
@@ -115,11 +138,17 @@ fetch(urlNews)
       dashboard.append(item);
     }
   })
+<<<<<<< HEAD
+})
+=======
 
+>>>>>>> main
 
 
 
 //--------------------------------------------------------------
+<<<<<<< HEAD
+=======
 // var name = "aapl"
 // var dashboard = $('#div-test')
 // //key 2vBl2k6Nzv2Cqtal2Z2kE4sVaIT2FTNv
@@ -134,3 +163,4 @@ fetch(urlNews)
 // //     dashboard.append(h3)
 // // }
 // })
+>>>>>>> main

@@ -5,4 +5,10 @@
 .test2{
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
+}
+.hii{
+    display: none;
+=======
+>>>>>>> main
 }
