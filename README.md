@@ -24,9 +24,5 @@ Then the application will be entered above
 When I come back to My Expense Tracker
 I can view, add or update My Expense Tracker
 
-Given my expense tracker is up-dated
-When I can enter my G-mail e-mail address
-Then all my expenses will be added to my Google calendar to see and track on all devices signed in to Google
 
-We are still looking for a second API
 ```

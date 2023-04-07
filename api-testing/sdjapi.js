@@ -119,17 +119,6 @@ fetch('https://fakestoreapi.com/products/')
 
 
 //--------------------------------------------------------------
-fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,tron')
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data); 
-    // test.empty() 
-    var test=$('#test') 
-    var a=data.result[0].id
-    var name=$('<h3>').text(a)
-    test.append(name)
-  });
-
   fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,tron')
   .then(response => response.json())
   .then(data => {
@@ -142,7 +131,7 @@ fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,
       const name = asset.name;
       const price = asset.priceUsd;
       var symbol = asset.symbol;
-      var marketCapUsd = asset.marketCapUsd;
+      
 
       // create elements for displaying the asset information
       const assetContainer = $('<div>');
@@ -150,14 +139,14 @@ fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,
       const assetName = $('<p>').text(name);
       const assetPrice = $('<p>').text(`Price: ${price}`);
       var assetsymbol = $('<p>').text(symbol);
-      var assetMarketCapUsd = $('<p>').text(MarketCapUsd);
+      
 
       // add the elements to the container div
       assetContainer.append(assetId);
       assetContainer.append(assetName);
       assetContainer.append(assetPrice);
       assetContainer.append(assetsymbol);
-      assetContainer.append(assetMarketCapUsd);
+      
 
       // add the container div to the test element
       test.append(assetContainer);
