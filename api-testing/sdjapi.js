@@ -97,61 +97,49 @@ fetch('https://fakestoreapi.com/products/')
 // })
 
 
-// fetch('https://fakestoreapi.com/products/')
-//   .then(response => response.json())
-//   .then(data => {
-//     console.log(data);
-//     alpha.empty();
-//     for (var i = 0; i < 5; i++) { // Loop through the first 5 products
-//       var title = data[i].title;
-//       var img = data[i].image;
-//       var p = $('<p>').text(title);
-//       var pic = $('<img>').attr("src", img);
-//       alpha.append(p, pic);
-//     }
-//   })
-//   .catch(error => {
-//     console.log('Error fetching products:', error);
-//   });
-
-
-
-
-
 //--------------------------------------------------------------
-  fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,tron')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-    const test = $('#Crypto');
+  
+fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,tron')
+.then(response => response.json())
+.then(data => {
+  console.log(data);
+  const test = $('#crypto');
+  
+  
+  // loop over the array of assets
+  for (const asset of data.data) {
+    const id = asset.id;
+    const name = asset.name;
+    const price = asset.priceUsd;
+    var symbol = asset.symbol;
+    var supply = asset.supply;
+    
 
-    // loop over the array of assets
-    for (const asset of data.data) {
-      const id = asset.id;
-      const name = asset.name;
-      const price = asset.priceUsd;
-      var symbol = asset.symbol;
-      
+    // create elements for displaying the asset information
+    // const assetContainer = $('<div>');
+    const assetId = $('<h4>').text(id);
+    // const assetName = $('<p>').text(name);
+    const assetPrice = $('<p>').text(`Price: ${price}`);
+    var assetsymbol = $('<p>').text(`Trading Symbol: ${symbol}`);
+    var assetsupply = $('<p>').text(`Market Supply: ${supply}`);
+    
 
-      // create elements for displaying the asset information
-      const assetContainer = $('<div>');
-      const assetId = $('<h2>').text(id);
-      const assetName = $('<p>').text(name);
-      const assetPrice = $('<p>').text(`Price: ${price}`);
-      var assetsymbol = $('<p>').text(symbol);
-      
 
-      // add the elements to the container div
-      assetContainer.append(assetId);
-      assetContainer.append(assetName);
-      assetContainer.append(assetPrice);
-      assetContainer.append(assetsymbol);
-      
+    // add the elements to the container div
+    // assetContainer.append(assetId);
+    // assetContainer.append(assetName);
+    // assetContainer.append(assetPrice);
+    // assetContainer.append(assetsymbol);
 
-      // add the container div to the test element
-      test.append(assetContainer);
-    }
-  });
+    // add the container div to the test element 
+    item3=$('<div>').addClass('dashboard-item')
+    item3.append(assetId,assetPrice,assetsymbol,assetsupply)
+    test.append(item3)
+    // test.append(assetContainer);
+  }
+});  
+
+     
 
 
 
