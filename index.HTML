@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Expense Tracker App</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
-      rel="stylesheet"
-    />
+    href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.cdnfonts.com/css/cash-currency" rel="stylesheet">
+      
     <link rel="stylesheet" href="assets/style1.css" />
     
   </head>
@@ -42,8 +42,18 @@
 
     
     <section class="content">
-      <span for="spend">What is your monthly budget?</span>
-      <input type="money" id="mymoney"
+      <div class="total-amount-container">
+            <h3>What is your monthly budget?</h3>
+            <p class="hide error" id="budget-error">
+              Value cannot be empty or negative
+            </p>
+            <input
+              type="number"
+              id="total-amount"
+              placeholder="Enter Total Amount"
+            />
+            <button class="submit" id="total-amount-button">Set Budget</button>
+          </div>
        <br> 
 
       <h3 class="secondTitle">Add a new item:</h3>
@@ -87,14 +97,28 @@
             <th>Options</th>
           </tr>
         </thead>
+        
         <tbody id="expenseTable"></tbody>
       </table>
+      <div class="output-container flex-space">
+        <div>
+          <p>Total Budget</p>
+          <span id="amount">0</span>
+        </div>
+        <div>
+          <p>Expenses</p>
+          <span id="bills">0</span>
+        </div>
+        <div>
+          <p>Balance</p>
+          <span id="balances">0</span>
+        </div>
+      </div>
+    </div>
       <span for="spend">You have spending money!</span>
-      <input type="money" id=""
+        <h5>Here some suggestions for ya! </h5>
     </section>
-    <div id="test"> </div>
-    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-    <script src="assets/ourscript.js"></script>
     
-  </body>
+        
+</body>
 </html>
