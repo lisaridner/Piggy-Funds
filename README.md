@@ -5,10 +5,12 @@
 Who are we building for? Anyone that want's to keep track of expenses.
 What do they want? Bill management, accountability for expenses, planning future expenses
 Benefit of Application: keeping your expenses organized, possible financial freedom, buying with confidence
+
 ```
 ## Acceptance Criteria
 ```
 Given I am using an expense tracker
+I will enter my monthly budget
 When I click on the drop down menu
 Then I am presented with said payments
 When I choose a type of payment
