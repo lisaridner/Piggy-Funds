@@ -24,5 +24,23 @@ Then the application will be entered above
 When I come back to My Expense Tracker
 I can view, add or update My Expense Tracker
 
+Given my expense tracker is up-dated
+When I can veiw my spending money
+Then I can use reminding money to check shops or invest.
 
+
+```
+# Lets Manage the money!
+```
+Our website will Help you keep track of your monthly expenses. Just start off by Putting your Budget for the month!
+```
+![Budget](assets/images/AddingYour%20Budget.jpg)
+```
+Then follow the form by Choosing your type of expense, the date, name and amount!
+```
+![AddItem](assets/images/AddingTypeNameDate.jpg)
+```
+Once you press enter your expense will be added to the the list below.
+```
+![AddingExpense](assets/images/ExpenseSHowsTheBottom.jpg)
 ```
