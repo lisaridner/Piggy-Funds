@@ -1,4 +1,7 @@
 # Welcome to our Expense Tracker
+```
+This is our simple expense tracker. An easy way to keep track of how you mange your money. IF your bad a budgeting or even saving this will help you keep track of those expesne that aren't really nessaary. For people who are learning to manage there small bussines or even want to save for investing thes will also help! API will be inclued to point you in the right direction with the extra money you saved up.
+```
 
 ## User story
 ```
@@ -30,7 +33,7 @@ I can read up on trending investments articles, I can shop, and I can reserach c
 Then I can use the remaining money however I choose. 
 
 ```
-# Lets Manage the money!
+# Lets Manage that money!
 ```
 Our website will Help you keep track of your monthly expenses. Just start off by Putting your Budget for the month!
 ```
@@ -43,4 +46,36 @@ Then follow the form by Choosing your type of expense, the date, name and amount
 Once you press enter your expense will be added to the the list below.
 ```
 ![AddingExpense](assets/images/ExpenseSHowsTheBottom.jpg)
+
+
+## Credits 
 ```
+Lisa Ridner
+Marilys Valentin
+Samuel DeJesus
+Richard Murillo
+Jai Lawson
+```
+## License
+```
+MIT License
+
+Copyright (c) [2023] [Marilys Valentin, Lisa Ridner, Samuel DeJesus, Jai Lawson, Richard Murillo ]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
