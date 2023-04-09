@@ -26,6 +26,7 @@ var style = $('<style>').text(`
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: white;
     border: 2px solid gray;
     margin: 10px;
     width: 20%;
@@ -137,6 +138,8 @@ fetch('https://api.coincap.io/v2/assets?ids=bitcoin,usd-coin,polkadot,the-graph,
     test.append(item3)
     // test.append(assetContainer);
   }
+
+ 
 });  
 
      

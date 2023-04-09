@@ -25,9 +25,9 @@ When I come back to My Expense Tracker
 I can view, add or update My Expense Tracker
 
 Given my expense tracker is up-dated
-When I can veiw my spending money
-Then I can use reminding money to check shops or invest.
-
+When I can view my spending money
+I can read up on trending investments articles, I can shop, and I can reserach crypto investments.
+Then I can use the remaining money however I choose. 
 
 ```
 # Lets Manage the money!
