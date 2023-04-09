@@ -4,7 +4,8 @@
 }
 
 body{
-    background-image: url(images/pic1.png);
+    background-image: url(../assets/images/pic1.png);
+    background-repeat: none;
     background-size:contain;
     color: #62967e;
 
@@ -35,8 +36,9 @@ body{
     text-align:left;
     line-height: 7px;
     margin: 2% 0;
-    font: size 30px;
+    font-size:  75px;
     padding: 5%;
+    margin-bottom: 100px;
 }
 
 .formLine{
@@ -431,5 +433,32 @@ a{
   }
   .legs.back {
     left: 60%;
+  }
+  .form{
+    margin-bottom: 40px;
+    border-bottom: 1px solid green;
+  }
+  #btn1{
+    margin-top: 35px;
+  }
+  .gamma{
+    margin-top: 45px;
+  }
+.beta{
+  margin-top: 35px;
+  margin-bottom: 80px;
+}
+  .functions{
+
+  border-bottom: 1px solid green;
+}
+#alpha{
+  margin-bottom: 40px;
+}
+  @media only screen and (max-width: 768px) {
+  body{background-image: none;
+  background-color: #13c098;
+  }
+
   }
   
