@@ -16,7 +16,7 @@ $(document).ready(function(){
   var alpha = $('#alpha');
   var bill = $('#amount');
   var result = $('#result');
-  var currentBudget = 0;
+  var currentBudget = JSON.parse(localStorage.getItem("budget"));
   
   display.text(JSON.parse(localStorage.getItem("budget")))
   btn1.click(function(){
@@ -24,15 +24,16 @@ $(document).ready(function(){
       display.text(x);
       currentBudget = x;
       localStorage.setItem("budget", JSON.stringify(currentBudget));
+      
   });
   
   alpha.click(function(){
     var numbill = parseInt(bill.val());
-    currentBudget -= parseInt(numbill);
-   
+    currentBudget -= numbill; 
     display.text(currentBudget);
-     localStorage.setItem("budget", JSON.stringify(currentBudget));
-});
+    localStorage.setItem("budget", JSON.stringify(currentBudget));
+  });
+  
 
   
   
