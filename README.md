@@ -1,6 +1,6 @@
-# Welcome to our Expense Tracker
+# Welcome to Piggy Funds
 ```
-This is our simple expense tracker. An easy way to keep track of how you mange your money. IF your bad a budgeting or even saving this will help you keep track of those expesne that aren't really nessaary. For people who are learning to manage there small bussines or even want to save for investing thes will also help! API will be inclued to point you in the right direction with the extra money you saved up.
+This a simple expense tracker. An easy way to keep track of how you manage your money. If your bad at budgeting or even saving this will help you keep track of those expesne that aren't really nessaary. For people who are learning to manage there small bussines or even want to save for investing this will also help! API will be inccluded to point you in the right direction with the extra money you saved up.
 ```
 
 ## User story
@@ -46,10 +46,18 @@ Then follow the form by Choosing your type of expense, the date, name and amount
 Once you press enter your expense will be added to the the list below.
 ```
 ![AddingExpense](assets/images/ExpenseSHowsTheBottom.jpg)
-
+```
+If you see you have extra spending money for yourself or your bussness you can visit clcik on the Have extra speading money? 
+```
+![extraMoney?](assets/images/extramoney.jpg)
+```
+once you follow the link it will show you stocks or investment you can use your money towards of if your a small bussiness owner looking for supplies it will take you to websites that sell supplies.
+```
+![API](assets/images/Investandshop.jpg)
 
 ## Credits 
 ```
+Thank you to the amazing team! 
 Lisa Ridner
 Marilys Valentin
 Samuel DeJesus
