@@ -11,7 +11,12 @@
     flex-direction: row;
 }
 
-body{background-color:rgb(53, 127, 73)}
+
+body{
+    background-color:rgb(53, 127, 73)
+
+
+}
 
 @media screen and (max-width: 850px)
 {.test{flex-direction: column;}

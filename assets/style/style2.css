@@ -4,42 +4,52 @@
 }
 
 body{
-    background-image: url(../images/pic1.png);
-    background-repeat: none;
-    background-size:contain;
+    background-image: url(../images/wood.jpg);
+    background-size: cover;
     color: #62967e;
 
 }
-
+@import url("https://fonts.cdnfonts.com/css/cash-currency");
 .title{
   width: 750px;
-  color: #105078;
+  color: #13574e;
   margin: 3% auto;
-  font-family: "Arvo";
+  font-family: "Cash Currency", sans-serif;
   text-align: center;
   font-size: 65px;
+  text-shadow: -1px 1px 2px #000,
+				 
 }
 
 .content{
-    width: 580px;
+    width: 880px;
     margin: 0 auto;
     text-align: center;
     font-size:25px;
-    background-color:#0bea6c;
+    background-image: url(../images/paper.jpg);
+    background-size: cover;
     padding: 5%;
     padding-left: 6%;
     color:#105078;
+    border-radius: 10%;
+}
 
+.content h3 {
+  font-size: 55px;
+  
 }
 
 .secondTitle{
     text-align:left;
     line-height: 7px;
     margin: 2% 0;
-    font-size:  55px;
+    font-size:  58px;
     padding: 5%;
     margin-bottom: 100px;
     margin-top: 30px;
+    font-family: 'Old Standard TT';
+    text-align: center;
+
 }
 
 /* .formLine{
@@ -70,22 +80,32 @@ thead{
 }
 
 /*table style*/
-table{
-    width: 100%
+taable {
+  width: 100%;
+  color: rgb(59, 23, 23);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 button{
-    width: 200px;
-    color:#fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.1em;
-    line-height: 20px;
-    background-color: #04BF8A;
-    border-radius: 5px;
-    margin: 14px 25%;
-    cursor: pointer;
-
-
+  width: 200px;
+  color: #b8d1c7;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 20px;
+  background-color: #04bf8a;
+  border-radius: 5px;
+  margin: 14px 25%;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    align-items: center xc;
 }
 
 a{
