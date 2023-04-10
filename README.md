@@ -47,11 +47,11 @@ Once you press enter your expense will be added to the the list below.
 ```
 ![AddingExpense](assets/images/ExpenseSHowsTheBottom.jpg)
 ```
-If you see you have extra spending money for yourself or your bussness you can visit clcik on the Have extra speading money? 
+If you see you have extra spending money for yourself or your bussness you can  click on the button Have extra speading money? 
 ```
 ![extraMoney?](assets/images/extramoney.jpg)
 ```
-once you follow the link it will show you stocks or investment you can use your money towards of if your a small bussiness owner looking for supplies it will take you to websites that sell supplies.
+once you follow the link it will show you stocks or investment you can use your money towards or if your a small bussiness owner looking for supplies it will take you to websites that sell supplies.
 ```
 ![API](assets/images/Investandshop.jpg)
 
